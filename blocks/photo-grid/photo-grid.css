@@ -27,23 +27,3 @@
         gap: 12px;
     }
 } 
-.photo-grid__image {
-    width: 284px;
-    height: 213px;
-}
-
-/* Media query de tablets */
-@media screen and (max-width: 1279px) {
-    .photo-grid__image  {
-        width: 352px;
-        height: auto;
-    }
-}
-
-/* Media query de mobiles */
-@media screen and (max-width: 767px) {
-    .photo-grid__image  {
-        width: 288px;
-        height: auto;
-    }
-} 
