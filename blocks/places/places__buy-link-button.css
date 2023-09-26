@@ -1,0 +1,50 @@
+.places__buy-link-button {
+    border-radius: 4px;
+    background: #0278FE;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: inline-flex;
+    padding: 13px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.places__buy-link-button:hover{
+    background: #0063D2;
+}
+
+/* Media query de tablets */
+@media screen and (max-width: 1279px) {
+    .places__buy-link-button  {
+        margin-right: -25px;
+    }
+}
+
+/* Media query de mobiles */
+@media screen and (max-width: 767px) {
+    .places__buy-link-button  {
+        font-size: 14px;
+        padding: 16px 22px 15px 21px;
+        margin-right: 0;
+    }
+} 
+/* Media query de mobiles */
+@media screen and (max-width: 767px) {
+    .places__buy-link-button_hide_mobile {
+        display: none;
+    }
+} 
+.places__buy-link-button_hide_tablet {
+    display: none;
+}
+
+/* Media query de mobiles */
+@media screen and (max-width: 767px) {
+    .places__buy-link-button_hide_tablet {
+        display: revert;
+    }
+}

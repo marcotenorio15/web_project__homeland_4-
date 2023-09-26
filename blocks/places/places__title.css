@@ -1,0 +1,24 @@
+.places__title {
+    color: #FFF;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.05;
+    margin: 0;
+}
+
+/* Media query de tablets */
+@media screen and (max-width: 1279px) {
+    .places__title  {
+        font-size: 42px;
+        line-height: 1.092;
+    }
+}
+
+/* Media query de mobiles */
+@media screen and (max-width: 767px) {
+    .places__title  {
+       font-size: 32px;
+       line-height: 1.093;
+    }
+} 

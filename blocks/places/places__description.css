@@ -1,0 +1,20 @@
+.places__description {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Media query de tablets */
+@media screen and (max-width: 1279px) {
+    .places__description  {
+        gap: 14px;
+    }
+}
+
+/* Media query de mobiles */
+@media screen and (max-width: 767px) {
+    .places__description  {
+        gap: 7px;
+        margin-top: -30px;
+    }
+} 

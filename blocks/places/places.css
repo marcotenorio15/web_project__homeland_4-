@@ -1,0 +1,24 @@
+.places {
+    max-width: 987px;
+    padding-top: 92px;
+    margin: 0;
+    margin-left: 145px;
+    margin-right: auto;
+}
+/* Media query de tablets */
+@media screen and (max-width: 1279px) {
+    .places  {
+        max-width: 720px;
+        padding-top: 88px;
+        margin-left: auto;
+    }
+}
+
+/* Media query de mobiles */
+@media screen and (max-width: 767px) {
+    .places  {
+        max-width: 320px;
+        padding-top: 62px;
+        margin-left: auto;
+    }
+} 
